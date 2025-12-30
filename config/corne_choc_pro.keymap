@@ -24,7 +24,7 @@
             tapping-term-ms = <180>;
             quick-tap-ms = <160>;
             require-prior-idle-ms = <80>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             hold-while-undecided;
             hold-trigger-key-positions = <7 8 9 10 11 12 13 21 22 23 24 25 26 27 34 35 36 37 38 39 43 44 45>;
             hold-trigger-on-release;
@@ -39,7 +39,7 @@
             tapping-term-ms = <180>;
             quick-tap-ms = <160>;
             require-prior-idle-ms = <80>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 15 29 28 14 2 3 4 5 6 16 17 18 19 20 30 31 32 33 40 41 42>;
