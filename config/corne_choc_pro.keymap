@@ -79,10 +79,10 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB        &kp Q         &kp W            &kp E            &kp R                &kp T      &kp C_MUTE       &kp C_PP  &kp Y    &kp U                      &kp I        &kp O            &kp P     &kp BSPC
-&kp LCTRL      &hml A LCTRL  &hml S LEFT_ALT  &hml D LEFT_GUI  &hml F LEFT_SHIFT    &kp G      &kp C_VOLUME_UP  &kp SQT   &kp H    &hmr J LSHIFT              &hmr K LGUI  &hmr L LEFT_ALT  &kp SEMI  &kp SQT
-&kp BACKSLASH  &kp Z         &kp X            &kp C            &kp V                &kp B                                 &kp N    &kp M                      &kp COMMA    &kp DOT          &kp FSLH  &exclamationDBTap
-                                              &kp ESC          &thumb_layers 1 TAB  &kp SPACE                             &kp RET  &thumb_layers 2 BACKSPACE  &kp DELETE
+&kp TAB        &kp Q         &kp W            &kp E            &kp R                  &kp T      &kp C_MUTE       &kp C_PP           &kp Y    &kp U                      &kp I        &kp O            &kp P     &kp BSPC
+&kp LCTRL      &hml LCTRL A  &hml LEFT_ALT S  &hml LEFT_GUI D  &hml LS(LEFT_SHIFT) F  &kp G      &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp H    &hmr LEFT_SHIFT J          &hmr LGUI K  &hmr LEFT_ALT L  &kp SEMI  &kp SQT
+&kp BACKSLASH  &kp Z         &kp X            &kp C            &kp V                  &kp B                                          &kp N    &kp M                      &kp COMMA    &kp DOT          &kp FSLH  &exclamationDBTap
+                                              &kp ESC          &thumb_layers 1 TAB    &kp SPACE                                      &kp RET  &thumb_layers 2 BACKSPACE  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN &inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_BRI_DN C_BRI_UP>;
